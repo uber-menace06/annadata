@@ -1,68 +1,21 @@
 import React from "react";
 import logo from "../images/logo.png";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
     <div>
       <div class="bg-black">
         <header class="absolute inset-x-0 top-0 z-50">
-          <nav
-            class="flex items-center justify-between p-6 lg:px-8"
-            aria-label="Global"
-          >
-            <div class="flex lg:flex-1">
-              <a href="#">
-                <span class="sr-only">Annadata</span>
-                <img class="h-20" src={logo} alt="" />
-              </a>
-            </div>
-            <div class="flex lg:hidden">
-              <button
-                type="button"
-                class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700"
-              >
-                <span class="sr-only">Open main menu</span>
-                <svg
-                  class="h-6 w-6"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke-width="1.5"
-                  stroke="currentColor"
-                  aria-hidden="true"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
-                  />
-                </svg>
-              </button>
-            </div>
-            <div class="hidden lg:flex lg:gap-x-12">
-              <a href="#" class="text-sm font-semibold leading-6 text-white">
-                Nearby KIOSKs
-              </a>
-              <a href="#" class="text-sm font-semibold leading-6 text-white">
-                Leaderboard
-              </a>
-              <a href="#" class="text-sm font-semibold leading-6 text-white">
-                FoodCard
-              </a>
-            </div>
-            <div class="hidden lg:flex lg:flex-1 lg:justify-end">
-              <a href="#" class="text-sm font-semibold leading-6 text-white">
-                Login to Contribute <span aria-hidden="true">&rarr;</span>
-              </a>
-            </div>
-          </nav>
+          {/* <Header /> */}
           <div class="lg:hidden" role="dialog" aria-modal="true">
             <div class="fixed inset-0 z-50"></div>
             <div class="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-white/10">
               <div class="flex items-center justify-between">
-                <a href="#" class="-m-1.5 p-1.5">
+                <Link to="/" class="-m-1.5 p-1.5">
                   <span class="sr-only">Annadata Food Kiosk</span>
                   <img class="h-8 w-auto" src={logo} alt="" />
-                </a>
+                </Link>
                 <button
                   type="button"
                   class="-m-2.5 rounded-md p-2.5 text-gray-700"
@@ -87,32 +40,32 @@ const Home = () => {
               <div class="mt-6 flow-root">
                 <div class="-my-6 divide-y divide-gray-500/10">
                   <div class="space-y-2 py-6">
-                    <a
-                      href="#"
+                    <Link
+                      to="/"
                       class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white hover:bg-gray-50"
                     >
                       Nearby KIOSKs
-                    </a>
-                    <a
-                      href="#"
+                    </Link>
+                    <Link
+                      to="/"
                       class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white hover:bg-gray-50"
                     >
                       Leaderboard
-                    </a>
-                    <a
-                      href="#"
+                    </Link>
+                    <Link
+                      to="/"
                       class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white hover:bg-gray-50"
                     >
                       FoodCard
-                    </a>
+                    </Link>
                   </div>
                   <div class="py-6">
-                    <a
-                      href="#"
+                    <Link
+                      to="/"
                       class="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-white hover:bg-gray-50"
                     >
                       Login to Contribute
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -130,10 +83,10 @@ const Home = () => {
             <div class="hidden sm:mb-8 sm:flex sm:justify-center">
               <div class="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-400 ring-1 ring-white/10 hover:ring-white/20">
                 Announcing our next FoodCard distribution.{" "}
-                <a href="#" class="font-semibold text-indigo-600">
+                <Link to="/" class="font-semibold text-indigo-600">
                   <span class="absolute inset-0" aria-hidden="true"></span>Read
                   more <span aria-hidden="true">&rarr;</span>
-                </a>
+                </Link>
               </div>
             </div>
             <div class="text-center">
@@ -146,15 +99,18 @@ const Home = () => {
                 quibusdam, voluptas minus consectetur!
               </p>
               <div class="mt-10 flex items-center justify-center gap-x-6">
-                <a
-                  href="#"
+                <Link
+                  to="/"
                   class="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                 >
                   Contribute
-                </a>
-                <a href="#" class="text-sm font-semibold leading-6 text-white">
+                </Link>
+                <Link
+                  to="/learnmore"
+                  class="text-sm font-semibold leading-6 text-white"
+                >
                   Learn more <span aria-hidden="true">→</span>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
