@@ -19,7 +19,7 @@ const useStyles = styled((theme) => ({
     title: {
         fontSize: 20,
         marginVertical: theme.spacing(1),
-        color: theme.palette.primary.main, // You can customize the color here
+        color: theme.palette.primary.main,
     },
     description: {
         color: theme.palette.text.secondary,
@@ -51,18 +51,24 @@ const Pickup = ({ title, description, status, pickupId }) => {
                 <Typography className={classes.title}>Food: {title}</Typography>
                 <Typography className={classes.description}>Details: {description}</Typography>
             </Box>
-            <Checkbox
-                checked={completed}
-                color="primary"
-                onChange={handleCheckbox}
-            />
-            <IconButton
-                aria-label="cancel"
-                onClick={cancelHandler}
-                className={classes.cancelButton}
-            >
-                <DeleteIcon style={{ color: '#FFF6E0' }} />
-            </IconButton>
+            <div>
+                <Checkbox
+                    checked={completed}
+                    color="primary"
+                    onChange={handleCheckbox}
+                />
+                Picked Up
+            </div>
+            <div>
+                <IconButton
+                    aria-label="cancel"
+                    onClick={cancelHandler}
+                    className={classes.cancelButton}
+                >
+                    <DeleteIcon style={{ color: '#f60' }} />
+                </IconButton>
+                Cancel Pickup
+            </div>
         </Box>
     );
 };

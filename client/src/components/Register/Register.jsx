@@ -1,29 +1,45 @@
 import React, { useState } from "react";
 import { Button, Input, Paper, FormControl, InputLabel, Select, MenuItem } from "@mui/material";
 import { Link } from "react-router-dom";
+import { useDispatch, useSelector } from 'react-redux'
+import { register } from '../../redux/action.js'
 
 const Register = () => {
-    const [contributorType, setContributorType] = useState("individual");
 
-    const handleContributorTypeChange = (event) => {
-        setContributorType(event.target.value);
-    };
+    const [userid, setuserid] = useState("");
+    const [name, setName] = useState("")
+    const [email, setEmail] = useState("");
+    const [password, setPassword] = useState("");
+    const [ctype, settype] = useState("");
+
+    const dispatch = useDispatch()
+
+    const registerHandler = () => {
+        const myForm = new FormData();
+        myForm.append("userid", userid);
+        myForm.append("name", name);
+        myForm.append("email", email);
+        myForm.append("password", password);
+        myForm.append("type", ctype)
+
+        dispatch(register(myForm));
+    }
 
     return (
         <Paper className="loginPage" elevation={20}>
             <h1>Register</h1>
             <form>
-                <Input className="credential" placeholder="Enter Name" variant="outlined" />
-                <Input className="credential" placeholder="Enter Userid" variant="outlined" />
-                <Input className="credential" placeholder="Enter Email" variant="outlined" />
-                <Input className="credential" placeholder="Enter Password" variant="outlined" />
+                <Input className="credential" placeholder="Enter Userid" variant="outlined" onChange={(e) => setuserid(e.target.value)} />
+                <Input className="credential" placeholder="Enter Name" variant="outlined" onChange={(e) => setName(e.target.value)} />
+                <Input className="credential" placeholder="Enter Email" variant="outlined" onChange={(e) => setEmail(e.target.value)} />
+                <Input className="credential" type="password" placeholder="Enter Password" variant="outlined" onChange={(e) => setPassword(e.target.value)} />
                 <FormControl variant="outlined" style={{ width: "100%", marginTop: "20px" }}>
                     <InputLabel id="contributor-type-label">Contributor Type</InputLabel>
                     <Select
                         labelId="contributor-type-label"
                         id="contributor-type"
-                        value={contributorType}
-                        onChange={handleContributorTypeChange}
+                        value={ctype}
+                        onChange={(e) => settype(e.target.value)}
                         label="Contributor Type"
                     >
                         <MenuItem value="individual">Individual</MenuItem>
@@ -33,7 +49,7 @@ const Register = () => {
                     </Select>
                 </FormControl>
 
-                <Button style={{ marginTop: "35px", borderRadius: "200px" }} variant="contained" color="success">
+                <Button style={{ marginTop: "35px", borderRadius: "200px" }} onClick={registerHandler} variant="contained" color="success">
                     Register
                 </Button>
             </form>

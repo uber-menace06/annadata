@@ -25,7 +25,7 @@ const Login = () => {
             <h1>Login</h1>
             <form>
                 <Input className="credential" placeholder="Enter UserID" variant="outlined" onChange={(e) => setuserid(e.target.value)} />
-                <Input className="credential" placeholder="Enter Password" variant="outlined" onChange={(e) => setPassword(e.target.value)} />
+                <Input className="credential" type='password' placeholder="Enter Password" variant="outlined" onChange={(e) => setPassword(e.target.value)} />
                 <Button style={{ marginTop: "35px", borderRadius: "200px" }} onClick={loginHandler} variant="contained" color="success">Login</Button>
             </form>
             <div>
