@@ -12,6 +12,7 @@ import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-d
 import Learnmore from './components/Learnmore/Learnmore.jsx';
 import Header from './components/Header/Header.jsx';
 import Loading from './components/Loading/Loading.jsx';
+import UserProfile from './components/UserProfile/UserProfile.jsx';
 
 function App() {
   const dispatch = useDispatch()
@@ -31,6 +32,7 @@ function App() {
           <Route path="/register" element={<Register />} />
           <Route path="/dashboard" element={isAuthenticated ? <Dashboard /> : <Navigate to="/login" />} />
           <Route path="/userhome" element={isAuthenticated ? <Userhome /> : <Navigate to="/login" />} />
+          <Route path="/userprofile" element={isAuthenticated ? <UserProfile /> : <Navigate to="/login" />} />
           <Route path="/learnmore" element={<Learnmore />} />
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>
