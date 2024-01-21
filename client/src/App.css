@@ -1174,7 +1174,31 @@ footer p{
 
 
 
-
+.userProfile{
+    width: 500px;
+    margin: auto;
+    padding: 30px;
+    text-align: center;
+    margin-top: 100px;
+    border-radius: 10px;
+}
+.userData{
+    display: flex;
+    text-align: left;
+}
+.userProfile h1{
+    font-size: 25px;
+  }
+  .profileData{
+    display: flex;
+    flex-direction: column;
+  }
+  .profileImg{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 200px;
+  }
 .loginPage{
     width: 400px;
     margin: auto;
