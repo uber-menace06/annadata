@@ -8,8 +8,8 @@ const Userhome = () => {
     return (
         <div className='flex justify-between mx-8'>
             <div><Sidebar /></div>
-            <div className='my-4 bg-gray-100 p-4 rounded-lg shadow-md overflow-auto'>
-                <h2 className='text-2xl font-bold mb-4 text-gray-800'>Recent Contributions</h2>
+            <div className='my-4 bg-gray-100 p-4 rounded-lg shadow-md h-fit overflow-auto'>
+                <h2 className='text-2xl font-bold p-4 mb-4 text-gray-800'>Recent Contributions</h2>
                 <div className='w-[35vw]'>
                     {user && user.pickups.map((item) => (
                         <div key={item._id} className='bg-white p-4 mb-4 rounded-md shadow-md'>
