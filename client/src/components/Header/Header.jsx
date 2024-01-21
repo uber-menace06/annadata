@@ -8,7 +8,7 @@ const Header = () => {
   const logoutHandler = () => {
     dispatch(logout())
   }
-  const { isAuthenticated } = useSelector(state => state.auth)
+  const { isAuthenticated, user } = useSelector(state => state.auth)
   return (
     <nav
       class="flex items-center justify-between p-6 lg:px-8 shadow-none w-full relative z-20"
@@ -19,7 +19,7 @@ const Header = () => {
           Anna <span>Daata</span>
         </Link>
       </div>
-      <div class="flex lg:hidden">
+      {!isAuthenticated && <div class="flex lg:hidden">
         <button
           type="button"
           class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700"
@@ -40,8 +40,8 @@ const Header = () => {
             />
           </svg>
         </button>
-      </div>
-      <div class="hidden lg:flex lg:gap-x-12">
+      </div>}
+      {!isAuthenticated && <div class="hidden lg:flex lg:gap-x-12">
         <Link to="/" class="text-sm font-semibold leading-6 text-white">
           Nearby KIOSKs
         </Link>
@@ -51,7 +51,7 @@ const Header = () => {
         <Link to="/" class="text-sm font-semibold leading-6 text-white">
           FoodCard
         </Link>
-      </div>
+      </div>}
       <div class="hidden lg:flex lg:flex-1 lg:justify-end">
         {isAuthenticated ? (<button onClick={logoutHandler} class="text-sm font-semibold leading-6 text-white">
           Logout <span aria-hidden="true">&rarr;</span>
