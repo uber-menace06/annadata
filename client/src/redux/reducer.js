@@ -20,7 +20,6 @@ export const authReducer = createReducer(
                 state.isAuthenticated = true;
                 state.user = action.payload.user;
                 state.message = action.payload.message;
-                localStorage.setItem('authToken', action.payload.token);
             })
             .addCase('loginFailure', (state, action) => {
                 state.loading = false;

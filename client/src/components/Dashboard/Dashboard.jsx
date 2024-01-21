@@ -55,14 +55,16 @@ const Dashboard = () => {
       </Paper>
 
       <IconButton
-        style={{ backgroundColor: "#FFF6E0", position: "fixed", bottom: 20, right: 20 }}
+        style={{ backgroundColor: "#eee", position: "fixed", bottom: 40, right: 40, width: 80, height: 80 }}
+        className='z-20'
+        title='Order Pickup'
         onClick={hideDialog}
       >
-        <AddIcon /> ADD
+        <AddIcon />
       </IconButton>
 
       <Dialog open={openDialog} onClose={hideDialog}>
-        <DialogTitle>ADD A Pickup</DialogTitle>
+        <DialogTitle>Order Pickup</DialogTitle>
         <DialogContent>
           <TextField
             label="Title"

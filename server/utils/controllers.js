@@ -8,6 +8,7 @@ const handleErrorResponse = (res, message, statusCode = 500) => {
 export const register = async (req, res) => {
     try {
         const { userid, name, email, password, type } = req.body;
+        console.log(name)
         let user = await User.findOne({ $or: [{ email }, { userid }] });
 
         if (user) {
