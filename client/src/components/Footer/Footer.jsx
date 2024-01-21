@@ -13,11 +13,11 @@ const Footer = () => {
         <div class="sec aboutus">
           <h2>About Us</h2>
           <p>
-            Khaana Khazana is a noble project aimed at reducing food wastage by
-            connecting restaurants with surplus food to underserved communities.
-            Our website facilitates seamless donations, fostering a sustainable
-            solution to hunger. Join us in creating a world where excess becomes
-            opportunity, ensuring no one goes to bed hungry.
+          AnnaDaata unites individuals, organizations, and businesses in a shared mission to alleviate hunger and reduce food waste. 
+          Our platform serves as a connective force, enabling contributors to make a meaningful impact in providing for the needy.
+          <br></br> 
+          <br></br>
+          <p>Join AnnaDaata in our commitment to creating a hunger-free world through community-driven solutions.</p>
           </p>
           <ul class="sci">
             <li>
@@ -73,7 +73,7 @@ const Footer = () => {
               </span>
               <p>
                 <Link to="mailto:khaanakhazana@gmail.com">
-                  khaanakhazana@gmail.com
+                  annadaata@gmail.com
                 </Link>
               </p>
             </li>
