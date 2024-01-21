@@ -1,4 +1,5 @@
 import React from "react";
+import { FaBold } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 const Home = () => {
@@ -19,10 +20,8 @@ const Home = () => {
             <h1 class="text-4xl font-bold tracking-tight text-white sm:text-6xl">
               A zero hunger initiative
             </h1>
-            <p class="mt-6 text-lg leading-8 text-gray-600">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
-              dolorum expedita impedit tempora eaque dignissimos placeat
-              quibusdam, voluptas minus consectetur!
+            <p class="mt-6 text-lg leading-7 text-gray-600">
+            Every Contribution Nourishes Tomorrow
             </p>
             <div class="mt-10 flex items-center justify-center gap-x-6">
               <Link

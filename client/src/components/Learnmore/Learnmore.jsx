@@ -20,35 +20,22 @@ const Learnmore = () => {
           </a>
         </div>
       </header> */}
-      <section class="home" id="home">
-        <div class="home-text container">
-          <img
-            src="https://media-assets.swiggy.com/swiggy/image/upload/f_auto,q_auto,fl_lossy/dy8jeyhgzgpaqbfd9r54"
-            alt="Food"
-          />
-          <div>
-            <h2 class="home-title">Anna Daata</h2>
-            <span class="home-subtitle">The Zero - Hunger Initiative</span>
-          </div>
-        </div>
-      </section>
       <section class="about container" id="about">
         <div class="contentBx">
           <h2 class="titleText" style={{ color: "white" }}>
             Bridging the Gap Between Excess and Necessity
           </h2>
           <p class="title-text" style={{ color: "white" }}>
-            In a world where food wastage and hunger coexist, the need for
-            innovative solutions becomes paramount. The Zero Hunger Initiative
-            is a groundbreaking project aimed at addressing this paradox by
-            creating a bridge between surplus food in restaurants and the
-            critical needs of slums and other impoverished areas. This
-            initiative not only tackles food wastage but also strives to make a
-            meaningful impact on communities struggling with hunger.
+          In response to the coexistence of food wastage and hunger, 
+          the Zero Hunger Initiative pioneers innovative solutions by 
+          bridging surplus restaurant food with critical needs in impoverished areas. 
+          This groundbreaking project not only addresses food wastage but also makes a 
+          meaningful impact on communities struggling with hunger. AnnaDaata acts as a crucial link, 
+          seamlessly connecting individuals, organizations, restaurants, and marketplace 
+          contributors to those in need, fostering a community-driven effort to combat hunger
+           and reduce food waste. Join us in building a network where every contributor plays a vital role
+            in ensuring a hunger-free future for all.
           </p>
-          <Link to="/login" class="btn2">
-            Log in
-          </Link>
         </div>
         <div class="imgBx">
           <img
@@ -79,26 +66,12 @@ const Learnmore = () => {
             How It Works:
           </Link>
           <p class="post-description">
-            The concept is simple yet powerful. Partnering with restaurants,
-            cafes, and other food establishments, the Zero Hunger Initiative
-            establishes a network to collect and redistribute surplus, unused,
-            or unsold food. Instead of letting it go to waste, these
-            establishments can choose to contribute to the cause, providing a
-            lifeline to those struggling to put food on the table
-          </p>
-        </div>
-        <div class="post-box food">
-          <img src={collaborate} alt="" class="post-img" />
-          <Link to="/" class="post-title">
-            Collaboration with Restaurants:
-          </Link>
-          <p class="post-description">
-            Restaurants play a crucial role in the success of the Zero Hunger
-            Initiative. By joining hands with us, they not only reduce their
-            environmental impact but also actively participate in giving back to
-            the community. Through streamlined logistics, we ensure that excess
-            food is collected promptly and redistributed to locations where it
-            is needed the most.
+            The concept is simple yet powerful. AnnaDaata connects contributors 
+            through our platform, scheduling pickups for surplus food. 
+            Efficient logistics distribute to strategically placed kiosks, 
+            providing secure access for those in need. Join our community-driven 
+            network to combat hunger collaboratively. Every contributor, 
+            big or small, plays a crucial role in ensuring no one goes hungry.
           </p>
         </div>
         <div class="post-box tech">
@@ -107,27 +80,25 @@ const Learnmore = () => {
             Technology and Logistics:
           </Link>
           <p class="post-description">
-            To make the process efficient and scalable, the Zero Hunger
-            Initiative leverages technology. A user-friendly app connects
-            restaurants with the initiative, allowing them to schedule food
-            pickups. The logistics team ensures that the food is transported
-            safely and reaches its destination in a timely manner. This
-            integration of technology not only streamlines the process but also
-            minimizes food wastage in the collection and distribution stages.
+          AnnaDaata employs innovative solutions to seamlessly connect 
+          food contributors with those in need. Leveraging advanced logistics, 
+          our platform ensures efficient scheduling, collection, and distribution of 
+          surplus food to strategically positioned kiosks. This harmonious integration 
+          of technology and logistics forms the backbone of our initiative, 
+          facilitating a swift and impactful response to the urgent challenges of hunger and food waste.
           </p>
         </div>
         <div class="post-box news">
-          <img src={empower} alt="" class="post-img" />
+          <img src= "https://th.bing.com/th/id/OIP.0JuXJ-WkdBPdAMZnFANohAAAAA?rs=1&pid=ImgDetMain" alt="Empowering Communities" class="post-img" />
           <Link to="/" class="post-title">
             Empowering Communities:
           </Link>
           <p class="post-description">
-            The surplus food, once collected, is directed towards slums,
-            orphanages, and other needy places. This process not only helps
-            alleviate hunger but also fosters a sense of community and
-            solidarity. By redistributing nutritious meals, the Zero Hunger
-            Initiative contributes to the well-being and development of
-            communities that have long been overlooked.
+          AnnaDaata empowers communities through collaboration, 
+          connecting contributors and those in need to combat hunger. 
+          Our platform creates a network where everyone contributes to 
+          building a stronger, more resilient community, addressing the 
+          critical issue of hunger together.
           </p>
         </div>
       </div>
