@@ -93,10 +93,10 @@ const Leaderboard = () => {
                                     </div>
                                     <div class="flex flex-col">
                                         <div class="flex items-center">
-                                            <div class="font-semibold">Swarajitay</div>
+                                            <div class="font-semibold">Sourajita</div>
                                         </div>
                                         <div class="flex items-center">
-                                            <div class="text-xs">@swarajita</div>
+                                            <div class="text-xs">@Sourajita</div>
                                         </div>
                                         <div class="flex flex-1 items-end space-x-[5px] text-base">
                                             <span>Rank</span>
