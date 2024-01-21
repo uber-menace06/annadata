@@ -9,7 +9,11 @@ const Userhome = () => {
         <div className='flex justify-between mx-8'>
             <div><Sidebar /></div>
             <div className='my-4 bg-gray-100 p-4 rounded-lg shadow-md h-fit overflow-auto'>
+<<<<<<< HEAD
                 <h2 className='text-2xl font-bold mb-4 text-gray-800'>Recent Contributions</h2>
+=======
+                <h2 className='text-2xl font-bold p-4 mb-4 text-gray-800'>Recent Contributions</h2>
+>>>>>>> 2497ac90992ba683b383d3331a5b529c089044dc
                 <div className='w-[35vw]'>
                     {user && user.pickups.map((item) => (
                         <div key={item._id} className='bg-white p-4 mb-4 rounded-md shadow-md'>
