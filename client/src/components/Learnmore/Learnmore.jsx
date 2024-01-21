@@ -10,7 +10,7 @@ import './Learnmore.css'
 
 const Learnmore = () => {
   return (
-    <div>
+    <div className="lm">
       {/* <header>
         <div class="nav container">
           <a href="#" class="logo">
