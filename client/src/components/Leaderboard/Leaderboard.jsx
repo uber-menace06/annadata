@@ -47,10 +47,10 @@ const Leaderboard = () => {
                                     </div>
                                     <div class="flex flex-col">
                                         <div class="flex items-center">
-                                            <div class="font-semibold">Abhishek Pandey</div>
+                                            <div class="font-semibold">Gyaneshwar Tiwari</div>
                                         </div>
                                         <div class="flex items-center">
-                                            <div class="text-xs">@dahi</div>
+                                            <div class="text-xs">@gyan</div>
                                         </div>
                                         <div class="flex flex-1 items-end space-x-[5px] text-base">
                                             <span>Rank</span>
@@ -70,10 +70,10 @@ const Leaderboard = () => {
                                     </div>
                                     <div class="flex flex-col">
                                         <div class="flex items-center">
-                                            <div class="font-semibold">Abhishek Pandey</div>
+                                            <div class="font-semibold">Neeraj Kumar</div>
                                         </div>
                                         <div class="flex items-center">
-                                            <div class="text-xs">@dahi</div>
+                                            <div class="text-xs">@neeraj</div>
                                         </div>
                                         <div class="flex flex-1 items-end space-x-[5px] text-base">
                                             <span>Rank</span>
@@ -93,10 +93,10 @@ const Leaderboard = () => {
                                     </div>
                                     <div class="flex flex-col">
                                         <div class="flex items-center">
-                                            <div class="font-semibold">Abhishek Pandey</div>
+                                            <div class="font-semibold">Swarajitay</div>
                                         </div>
                                         <div class="flex items-center">
-                                            <div class="text-xs">@dahi</div>
+                                            <div class="text-xs">@swarajita</div>
                                         </div>
                                         <div class="flex flex-1 items-end space-x-[5px] text-base">
                                             <span>Rank</span>
@@ -108,7 +108,7 @@ const Leaderboard = () => {
                             <td class="px-4 py-2 text-right text-green-500 font-bold">1200</td>
                         </tr>
                         <tr>
-                            <td class="px-4 py-2 text-gray-500 dark:text-gray-400 font-bold">1</td>
+                            <td class="px-4 py-2 text-gray-500 dark:text-gray-400 font-bold">2</td>
                             <td class="px-4 py-2 text-gray-700 dark:text-gray-300">
                                 <div class="flex space-x-4">
                                     <div class="relative flex h-20 w-20">
@@ -116,19 +116,88 @@ const Leaderboard = () => {
                                     </div>
                                     <div class="flex flex-col">
                                         <div class="flex items-center">
-                                            <div class="font-semibold">Abhishek Pandey</div>
+                                            <div class="font-semibold">Anonymous</div>
                                         </div>
                                         <div class="flex items-center">
                                             <div class="text-xs">@dahi</div>
                                         </div>
                                         <div class="flex flex-1 items-end space-x-[5px] text-base">
                                             <span>Rank</span>
-                                            <span class="font-medium">1</span>
+                                            <span class="font-medium">2</span>
                                         </div>
                                     </div>
                                 </div>
                             </td>
-                            <td class="px-4 py-2 text-right text-green-500 font-bold">1200</td>
+                            <td class="px-4 py-2 text-right text-green-500 font-bold">1000</td>
+                        </tr>
+                        <tr>
+                            <td class="px-4 py-2 text-gray-500 dark:text-gray-400 font-bold">2</td>
+                            <td class="px-4 py-2 text-gray-700 dark:text-gray-300">
+                                <div class="flex space-x-4">
+                                    <div class="relative flex h-20 w-20">
+                                        <img src="https://assets.leetcode.com/users/default_avatar.jpg" alt="Avatar" class="h-20 w-20 rounded-lg object-cover" />
+                                    </div>
+                                    <div class="flex flex-col">
+                                        <div class="flex items-center">
+                                            <div class="font-semibold">Anonymous</div>
+                                        </div>
+                                        <div class="flex items-center">
+                                            <div class="text-xs">@dahi</div>
+                                        </div>
+                                        <div class="flex flex-1 items-end space-x-[5px] text-base">
+                                            <span>Rank</span>
+                                            <span class="font-medium">2</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td class="px-4 py-2 text-right text-green-500 font-bold">1000</td>
+                        </tr>
+                        <tr>
+                            <td class="px-4 py-2 text-gray-500 dark:text-gray-400 font-bold">2</td>
+                            <td class="px-4 py-2 text-gray-700 dark:text-gray-300">
+                                <div class="flex space-x-4">
+                                    <div class="relative flex h-20 w-20">
+                                        <img src="https://assets.leetcode.com/users/default_avatar.jpg" alt="Avatar" class="h-20 w-20 rounded-lg object-cover" />
+                                    </div>
+                                    <div class="flex flex-col">
+                                        <div class="flex items-center">
+                                            <div class="font-semibold">Anonymous</div>
+                                        </div>
+                                        <div class="flex items-center">
+                                            <div class="text-xs">@dahi</div>
+                                        </div>
+                                        <div class="flex flex-1 items-end space-x-[5px] text-base">
+                                            <span>Rank</span>
+                                            <span class="font-medium">2</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td class="px-4 py-2 text-right text-green-500 font-bold">1000</td>
+                        </tr>
+                        <tr>
+                            <td class="px-4 py-2 text-gray-500 dark:text-gray-400 font-bold">2</td>
+                            <td class="px-4 py-2 text-gray-700 dark:text-gray-300">
+                                <div class="flex space-x-4">
+                                    <div class="relative flex h-20 w-20">
+                                        <img src="https://assets.leetcode.com/users/default_avatar.jpg" alt="Avatar" class="h-20 w-20 rounded-lg object-cover" />
+                                    </div>
+                                    <div class="flex flex-col">
+                                        <div class="flex items-center">
+                                            <div class="font-semibold">Anonymous</div>
+                                        </div>
+                                        <div class="flex items-center">
+                                            <div class="text-xs">@dahi</div>
+                                        </div>
+                                        <div class="flex flex-1 items-end space-x-[5px] text-base">
+                                            <span>Rank</span>
+                                            <span class="font-medium">2</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td class="px-4 py-2 text-right text-green-500 font-bold">1000</td>
                         </tr>
                     </tbody>
                 </table>
