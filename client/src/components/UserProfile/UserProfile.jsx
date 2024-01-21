@@ -12,10 +12,10 @@ const UserProfile = () => {
           />
         </div>
         <div className="profileData">
-          <h1>Avhishek Pandey</h1>
+          <h1>Avishek Pandey</h1>
           <h2>Age: 32</h2>
           <h2>Contribution: 5o meals</h2>
-          <h2>Pickups: 10 meals</h2>
+          <h2>Pickups: 10 </h2>
           <h2>Type: Individual</h2>
         </div>
       </div>
