@@ -13,14 +13,6 @@ const UserProfile = () => {
             alt="Avatar"
           />
         </div>
-<<<<<<< HEAD
-        <div className="profileData">
-          <h1>Avishek Pandey</h1>
-          <h2>Age: 32</h2>
-          <h2>Contribution: 5o meals</h2>
-          <h2>Pickups: 10 </h2>
-          <h2>Type: Individual</h2>
-=======
         <div className="profile-data ml-8">
           <h1 className="text-2xl font-bold mb-2">{user.name}</h1>
           <h1 className="text-xs font-bold mb-2">@{user.userid}</h1>
@@ -54,7 +46,6 @@ const UserProfile = () => {
             <p className="text-xl font-bold">0</p>
             <p className="text-xs text-gray-500">Last week: 0</p>
           </div>
->>>>>>> 2497ac90992ba683b383d3331a5b529c089044dc
         </div>
       </div>
     </Paper>
