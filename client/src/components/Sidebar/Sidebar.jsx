@@ -5,7 +5,7 @@ import { useSelector } from 'react-redux';
 const Sidebar = () => {
   const { user } = useSelector(state => state.auth);
   return (
-    <div class="bg-blue-300 ml-7 dark:bg-dark-blue-500 shadow-down-01 dark:shadow-dark-down-01 rounded-lg w-[300px] flex flex-col min-w-[300px] p-4 pt-[21px] my-4">
+    <div class="bg-green-300 ml-7 dark:bg-dark-green-500 shadow-down-01 dark:shadow-dark-down-01 rounded-lg w-[300px] flex flex-col min-w-[300px] p-4 pt-[21px] my-4">
       <div class="flex flex-col space-y-4">
         <div class="flex space-x-4">
           <div class="relative flex h-20 w-20">
@@ -35,25 +35,25 @@ const Sidebar = () => {
       <div className="space-y-2">
         <Link
           to="/link2"
-          className="ring-2 ring-white/100 hover:ring-white/40 block text-black hover:underline text-sm leading-6 p-2 rounded-md hover:bg-blue-400 focus:bg-blue-400 focus:outline-none focus:ring focus:border-blue-300"
+          className="ring-2 ring-white/100 hover:ring-white/40 block text-black hover:underline text-sm leading-6 p-2 rounded-md hover:bg-green-400 focus:bg-green-400 focus:outline-none focus:ring focus:border-green-300"
         >
           Home
         </Link>
         <Link
           to="/link1"
-          className="ring-1 ring-white/100 hover:ring-white/40 block text-black hover:underline text-sm leading-6 p-2 rounded-md hover:bg-blue-400 focus:bg-blue-400 focus:outline-none focus:ring focus:border-blue-300"
+          className="ring-1 ring-white/100 hover:ring-white/40 block text-black hover:underline text-sm leading-6 p-2 rounded-md hover:bg-green-400 focus:bg-green-400 focus:outline-none focus:ring focus:border-green-300"
         >
           Contribute
         </Link>
         <Link
           to="/link2"
-          className="ring-1 ring-white/100 hover:ring-white/40 block text-black hover:underline text-sm leading-6 p-2 rounded-md hover:bg-blue-400 focus:bg-blue-400 focus:outline-none focus:ring focus:border-blue-300"
+          className="ring-1 ring-white/100 hover:ring-white/40 block text-black hover:underline text-sm leading-6 p-2 rounded-md hover:bg-green-400 focus:bg-green-400 focus:outline-none focus:ring focus:border-green-300"
         >
           Past Constributions
         </Link>
         <Link
           to="/link3"
-          className="ring-1 ring-white/100 hover:ring-white/40 block text-black hover:underline text-sm leading-6 p-2 rounded-md hover:bg-blue-400 focus:bg-blue-400 focus:outline-none focus:ring focus:border-blue-300"
+          className="ring-1 ring-white/100 hover:ring-white/40 block text-black hover:underline text-sm leading-6 p-2 rounded-md hover:bg-green-400 focus:bg-green-400 focus:outline-none focus:ring focus:border-green-300"
         >
           Notifications
         </Link>
@@ -61,9 +61,9 @@ const Sidebar = () => {
           <input
             type="text"
             placeholder="Search..."
-            className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring focus:border-blue-300"
+            className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring focus:border-green-300"
           />
-          <button className="absolute inset-y-0 right-0 px-4 py-2 bg-blue-500 text-white rounded-md">
+          <button className="absolute inset-y-0 right-0 px-4 py-2 bg-green-500 text-white rounded-md">
             Search
           </button>
         </div>
@@ -72,13 +72,13 @@ const Sidebar = () => {
       <div className="space-y-2">
         <Link
           to="/settings1"
-          className="ring-1 ring-white/100 hover:ring-white/40 block text-black hover:underline text-sm leading-6 p-2 rounded-md hover:bg-blue-400 focus:bg-blue-400 focus:outline-none focus:ring focus:border-blue-300"
+          className="ring-1 ring-white/100 hover:ring-white/40 block text-black hover:underline text-sm leading-6 p-2 rounded-md hover:bg-green-400 focus:bg-green-400 focus:outline-none focus:ring focus:border-green-300"
         >
           Raise ticket
         </Link>
         <Link
           to="/settings2"
-          className="ring-1 ring-white/100 hover:ring-white/40 block text-black hover:underline text-sm leading-6 p-2 rounded-md hover:bg-blue-400 focus:bg-blue-400 focus:outline-none focus:ring focus:border-blue-300"
+          className="ring-1 ring-white/100 hover:ring-white/40 block text-black hover:underline text-sm leading-6 p-2 rounded-md hover:bg-green-400 focus:bg-green-400 focus:outline-none focus:ring focus:border-green-300"
         >
           Settings
         </Link>

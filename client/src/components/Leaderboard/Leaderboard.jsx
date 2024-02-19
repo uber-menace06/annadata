@@ -3,21 +3,21 @@ import React from 'react'
 const Leaderboard = () => {
     return (
         <div>
-            <div class="max-w-screen-lg mx-auto bg-blue-200 dark:bg-dark-bg p-8 rounded-lg shadow-md my-4">
+            <div class="max-w-screen-lg mx-auto bg-green-300 dark:bg-dark-bg p-8 rounded-lg shadow-md my-4">
                 <h2 class="text-3xl font-bold mb-6">Leaderboard</h2>
 
                 <table class="w-full">
                     <thead>
                         <tr>
-                            <th class="px-4 py-2 text-left text-gray-700 dark:text-gray-300">Rank</th>
-                            <th class="px-4 py-2 text-left text-gray-700 dark:text-gray-300">User ID</th>
-                            <th class="px-4 py-2 text-right text-gray-700 dark:text-gray-300">Points</th>
+                            <th class="px-4 py-2 text-left text-gray-700 ">Rank</th>
+                            <th class="px-4 py-2 text-left text-gray-700 ">User ID</th>
+                            <th class="px-4 py-2 text-right text-gray-700 ">Points</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <td class="px-4 py-2 text-gray-500 dark:text-gray-400 font-bold">1</td>
-                            <td class="px-4 py-2 text-gray-700 dark:text-gray-300">
+                            <td class="px-4 py-2 text-gray-600   font-bold">1</td>
+                            <td class="px-4 py-2 text-gray-700 ">
                                 <div class="flex space-x-4">
                                     <div class="relative flex h-20 w-20">
                                         <img src="https://assets.leetcode.com/users/default_avatar.jpg" alt="Avatar" class="h-20 w-20 rounded-lg object-cover" />
@@ -39,8 +39,8 @@ const Leaderboard = () => {
                             <td class="px-4 py-2 text-right text-green-500 font-bold">1200</td>
                         </tr>
                         <tr>
-                            <td class="px-4 py-2 text-gray-500 dark:text-gray-400 font-bold">1</td>
-                            <td class="px-4 py-2 text-gray-700 dark:text-gray-300">
+                            <td class="px-4 py-2 text-gray-600   font-bold">1</td>
+                            <td class="px-4 py-2 text-gray-700 ">
                                 <div class="flex space-x-4">
                                     <div class="relative flex h-20 w-20">
                                         <img src="https://assets.leetcode.com/users/default_avatar.jpg" alt="Avatar" class="h-20 w-20 rounded-lg object-cover" />
@@ -62,8 +62,8 @@ const Leaderboard = () => {
                             <td class="px-4 py-2 text-right text-green-500 font-bold">1200</td>
                         </tr>
                         <tr>
-                            <td class="px-4 py-2 text-gray-500 dark:text-gray-400 font-bold">1</td>
-                            <td class="px-4 py-2 text-gray-700 dark:text-gray-300">
+                            <td class="px-4 py-2 text-gray-600   font-bold">1</td>
+                            <td class="px-4 py-2 text-gray-700 ">
                                 <div class="flex space-x-4">
                                     <div class="relative flex h-20 w-20">
                                         <img src="https://assets.leetcode.com/users/default_avatar.jpg" alt="Avatar" class="h-20 w-20 rounded-lg object-cover" />
@@ -85,8 +85,8 @@ const Leaderboard = () => {
                             <td class="px-4 py-2 text-right text-green-500 font-bold">1200</td>
                         </tr>
                         <tr>
-                            <td class="px-4 py-2 text-gray-500 dark:text-gray-400 font-bold">1</td>
-                            <td class="px-4 py-2 text-gray-700 dark:text-gray-300">
+                            <td class="px-4 py-2 text-gray-600   font-bold">1</td>
+                            <td class="px-4 py-2 text-gray-700 ">
                                 <div class="flex space-x-4">
                                     <div class="relative flex h-20 w-20">
                                         <img src="https://assets.leetcode.com/users/default_avatar.jpg" alt="Avatar" class="h-20 w-20 rounded-lg object-cover" />
@@ -108,8 +108,8 @@ const Leaderboard = () => {
                             <td class="px-4 py-2 text-right text-green-500 font-bold">1200</td>
                         </tr>
                         <tr>
-                            <td class="px-4 py-2 text-gray-500 dark:text-gray-400 font-bold">2</td>
-                            <td class="px-4 py-2 text-gray-700 dark:text-gray-300">
+                            <td class="px-4 py-2 text-gray-600   font-bold">2</td>
+                            <td class="px-4 py-2 text-gray-700 ">
                                 <div class="flex space-x-4">
                                     <div class="relative flex h-20 w-20">
                                         <img src="https://assets.leetcode.com/users/default_avatar.jpg" alt="Avatar" class="h-20 w-20 rounded-lg object-cover" />
@@ -131,8 +131,8 @@ const Leaderboard = () => {
                             <td class="px-4 py-2 text-right text-green-500 font-bold">1000</td>
                         </tr>
                         <tr>
-                            <td class="px-4 py-2 text-gray-500 dark:text-gray-400 font-bold">2</td>
-                            <td class="px-4 py-2 text-gray-700 dark:text-gray-300">
+                            <td class="px-4 py-2 text-gray-600   font-bold">2</td>
+                            <td class="px-4 py-2 text-gray-700 ">
                                 <div class="flex space-x-4">
                                     <div class="relative flex h-20 w-20">
                                         <img src="https://assets.leetcode.com/users/default_avatar.jpg" alt="Avatar" class="h-20 w-20 rounded-lg object-cover" />
@@ -154,8 +154,8 @@ const Leaderboard = () => {
                             <td class="px-4 py-2 text-right text-green-500 font-bold">1000</td>
                         </tr>
                         <tr>
-                            <td class="px-4 py-2 text-gray-500 dark:text-gray-400 font-bold">2</td>
-                            <td class="px-4 py-2 text-gray-700 dark:text-gray-300">
+                            <td class="px-4 py-2 text-gray-600   font-bold">2</td>
+                            <td class="px-4 py-2 text-gray-700 ">
                                 <div class="flex space-x-4">
                                     <div class="relative flex h-20 w-20">
                                         <img src="https://assets.leetcode.com/users/default_avatar.jpg" alt="Avatar" class="h-20 w-20 rounded-lg object-cover" />
@@ -177,8 +177,8 @@ const Leaderboard = () => {
                             <td class="px-4 py-2 text-right text-green-500 font-bold">1000</td>
                         </tr>
                         <tr>
-                            <td class="px-4 py-2 text-gray-500 dark:text-gray-400 font-bold">2</td>
-                            <td class="px-4 py-2 text-gray-700 dark:text-gray-300">
+                            <td class="px-4 py-2 text-gray-600   font-bold">2</td>
+                            <td class="px-4 py-2 text-gray-700 ">
                                 <div class="flex space-x-4">
                                     <div class="relative flex h-20 w-20">
                                         <img src="https://assets.leetcode.com/users/default_avatar.jpg" alt="Avatar" class="h-20 w-20 rounded-lg object-cover" />
