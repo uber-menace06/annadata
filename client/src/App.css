@@ -47,12 +47,12 @@ img:hover {
 :root {
     --container-color: #FFB534;
     --second-color: #C1F2B0;
-    --text-color: #FBF6EE;
+    --text-color: #3d5221;
     --bg-color: #FBF6EE;
 }
 
 ::selection {
-    color: var(--bg-color);
+    color: var(--text-color);
     background: var(--second-color);
 }
 
@@ -365,7 +365,7 @@ footer p {
     display: inline-block;
     width: 40px;
     height: 40px;
-    background: #222;
+    background: #3d5221;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -376,7 +376,7 @@ footer p {
 }
 
 .sci li a:hover {
-    background: rgb(77, 228, 255);
+    background: #8bd227;
 }
 
 .sci i a .bx {

@@ -119,7 +119,7 @@ const Leaderboard = () => {
                                             <div class="font-semibold">Anonymous</div>
                                         </div>
                                         <div class="flex items-center">
-                                            <div class="text-xs">@dahi</div>
+                                            <div class="text-xs">NA</div>
                                         </div>
                                         <div class="flex flex-1 items-end space-x-[5px] text-base">
                                             <span>Rank</span>
@@ -142,7 +142,7 @@ const Leaderboard = () => {
                                             <div class="font-semibold">Anonymous</div>
                                         </div>
                                         <div class="flex items-center">
-                                            <div class="text-xs">@dahi</div>
+                                            <div class="text-xs">NA</div>
                                         </div>
                                         <div class="flex flex-1 items-end space-x-[5px] text-base">
                                             <span>Rank</span>
@@ -165,7 +165,7 @@ const Leaderboard = () => {
                                             <div class="font-semibold">Anonymous</div>
                                         </div>
                                         <div class="flex items-center">
-                                            <div class="text-xs">@dahi</div>
+                                            <div class="text-xs">NA</div>
                                         </div>
                                         <div class="flex flex-1 items-end space-x-[5px] text-base">
                                             <span>Rank</span>
@@ -188,7 +188,7 @@ const Leaderboard = () => {
                                             <div class="font-semibold">Anonymous</div>
                                         </div>
                                         <div class="flex items-center">
-                                            <div class="text-xs">@dahi</div>
+                                            <div class="text-xs">NA</div>
                                         </div>
                                         <div class="flex flex-1 items-end space-x-[5px] text-base">
                                             <span>Rank</span>
